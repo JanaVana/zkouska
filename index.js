@@ -1,10 +1,7 @@
-let jmeno = 'Jana';
-let prijmeni = 'Vanova';
-let mezera = ' ';
+let minutVhodine = 60;
+let hodinVeDne = 24;
+let dniVmesici = 31;
 
+let vysledek = minutVhodine * hodinVeDne * dniVmesici;
 
-console.log(jmeno + mezera + prijmeni);
-
-console.log(5 % 2);
-
-console.log(1+2);
+console.log(vysledek);
