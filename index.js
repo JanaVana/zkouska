@@ -13,10 +13,6 @@ let rokNarozeniMuz = 1985
 let mesicNarozeniZena = 2
 let mesicNarozeniMuz = 5
 
-let pocetMesicuZena = rokNarozeniZena * 12 + mesicNarozeniZena
-let pocetMesicuMuz = rokNarozeniMuz * 12 + mesicNarozeniMuz
+let vysledek = (rokNarozeniZena - rokNarozeniMuz) * 12 + (mesicNarozeniZena-mesicNarozeniMuz);
 
-console.log(pocetMesicuZena);
-console.log(pocetMesicuMuz);
-
-console.log(pocetMesicuZena - pocetMesicuMuz);
+console.log(vysledek);
