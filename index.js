@@ -15,4 +15,4 @@ let mesicNarozeniMuz = 5
 
 let vysledek = (rokNarozeniZena - rokNarozeniMuz) * 12 + (mesicNarozeniZena-mesicNarozeniMuz);
 
-console.log(vysledek);
+console.log(jmenoMuze + ' a ' + jmenoZeny + ' jsou od sebe vekove vzdaleni ' + vysledek + ' mesicu');
