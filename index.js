@@ -1,9 +1,16 @@
-let minutVhodine = 60;
-let hodinVeDne = 24;
-let dniVmesici = 31;
+//Založte proměnné pro jméno, věk, váhu v kg a  výšku  v metrech - nastavte jim libovolnou hodnotu.
+//Spočtěte BMI
+//Do konzole vypište větu ve formátu:
 
-let vysledek = minutVhodine * hodinVeDne * dniVmesici;
+//Jmenuji se Petra, je mi 34 let, vážím 65kg,  měřím 1.67m a moje BMI je 23,2.
 
-console.log(vysledek);
+let jmeno = 'Petra';
+let vek = 34
+let vaha = 60
+let vyska = 1.7
 
-console.log('V mesici lednu je' + ' ' + vysledek + ' ' + 'minut');
+let vysledek = vaha / vyska ** 2;
+
+
+
+console.log('Jmenuji se ' + jmeno +  ' , je mi ' + vek + ' let, vazim ' + vaha + 'kg, a merim ' + vyska + 'm a moje BMI je ' + vysledek);
