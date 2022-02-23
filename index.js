@@ -1,6 +1,6 @@
-let a = 15;
-let b = 5;
+let jmeno = 'Jana';
+let prijmeni = 'Vanova';
+let mezera = ' ';
 
-let soucet = 15+5+100;
 
-console.log(soucet);
+console.log(jmeno + mezera + prijmeni);
