@@ -1,16 +1,22 @@
-//Založte proměnné pro jméno, věk, váhu v kg a  výšku  v metrech - nastavte jim libovolnou hodnotu.
-//Spočtěte BMI
-//Do konzole vypište větu ve formátu:
+//Nadefinujme si proměnné a jejich hodnoty potřebné k uložení následujících informací:
+ //Jméno muže a ženy ​
+ //Rok a měsíc narození muže i ženy​
+//Spočteme rozdíl věku muže a ženy v měsících a vypíšeme ve formátu​ "[muz] a [zena] jsou od sebe věkově vzdáleni [XY] měsíců​"
+//Pro zjednodušení úkolu počítejme, že je muž vždy starší! (ať nemusíme řešit absolutní hodnotu z Math.abs())
 
-//Jmenuji se Petra, je mi 34 let, vážím 65kg,  měřím 1.67m a moje BMI je 23,2.
+let jmenoMuze = 'Pavel';
+let jmenoZeny = 'Jitka';
 
-let jmeno = 'Petra';
-let vek = 34
-let vaha = 60
-let vyska = 1.7
+let rokNarozeniZena = 1990
+let rokNarozeniMuz = 1985
 
-let vysledek = vaha / vyska ** 2;
+let mesicNarozeniZena = 2
+let mesicNarozeniMuz = 5
 
+let pocetMesicuZena = rokNarozeniZena * 12 + mesicNarozeniZena
+let pocetMesicuMuz = rokNarozeniMuz * 12 + mesicNarozeniMuz
 
+console.log(pocetMesicuZena);
+console.log(pocetMesicuMuz);
 
-console.log('Jmenuji se ' + jmeno +  ' , je mi ' + vek + ' let, vazim ' + vaha + 'kg, a merim ' + vyska + 'm a moje BMI je ' + vysledek);
+console.log(pocetMesicuZena - pocetMesicuMuz);
