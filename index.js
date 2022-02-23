@@ -5,3 +5,5 @@ let dniVmesici = 31;
 let vysledek = minutVhodine * hodinVeDne * dniVmesici;
 
 console.log(vysledek);
+
+console.log('V mesici lednu je' + ' ' + vysledek + ' ' + 'minut');
