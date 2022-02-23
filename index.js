@@ -1,3 +1,2 @@
-let jmeno = prompt ('jak se jmenujes');
-
-console.log('Jmenuji se ' + jmeno);
+let cislo = Number(prompt('Kolik je ti let:'));
+console.log('Je ti tolik let:' + cislo);
