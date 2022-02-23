@@ -1,5 +1,6 @@
-console.log('ahoj');
+let a = 15;
+let b = 5;
 
-console.log('jak se mas');
+let soucet = 15+5+100;
 
-console.log('Pepo'); 
+console.log(soucet);
